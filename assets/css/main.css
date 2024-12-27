@@ -680,11 +680,7 @@ table td {
 }
 
 .arrow-logo:hover {
-<<<<<<< Updated upstream
-  fill:  var(--accent-color);
-=======
   fill: var(--accent-color);
->>>>>>> Stashed changes
 }
 
 @media screen and (max-width: 600px) {
