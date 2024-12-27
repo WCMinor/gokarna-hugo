@@ -144,18 +144,16 @@ img {
 }
 
 .header-nav .avatar {
-  border-radius: 18px;
   float: left;
   height: 100%;
   margin-left: 15px;
 }
 .header-nav .avatar img {
-  border-radius: 100%;
   display: block;
   height: 38px;
   margin-top: 5px;
   overflow: hidden;
-  width: 38px;
+  width: 58px;
 }
 .header-nav .nav-title {
   display: inline-block;
@@ -381,9 +379,9 @@ table td {
 }
 
 .home-about .avatar img {
-  border-radius: 50%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
+  weight: 100%;
+  object-fit: scale-down;
 }
 
 /* Avatar sizes (default is M) - XS, S, M, L, XL */
@@ -409,7 +407,6 @@ table td {
 
 .home-about .avatar img.size-xl {
   height: 15rem;
-  width: 15rem;
 }
 
 .home-about h1 {
@@ -465,7 +462,9 @@ table td {
   /* Prevent long strings from overflowing */
   overflow-wrap: break-word;
 }
-.post .post-date, .prev-post-date, .next-post-date {
+.post .post-date,
+.prev-post-date,
+.next-post-date {
   color: gray;
 }
 .post .post-content {
@@ -473,7 +472,10 @@ table td {
   margin-top: 50px;
   letter-spacing: 0.5px;
 }
-.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
   scroll-margin-top: 55px;
 }
 .post-content h1 {
@@ -573,7 +575,6 @@ table td {
   }
 
   .home-about .avatar img {
-    border-radius: 50%;
     height: 7rem;
     width: 7rem;
   }
@@ -593,7 +594,8 @@ table td {
     width: auto;
   }
 
-  .markdown-content, .home-posts {
+  .markdown-content,
+  .home-posts {
     width: auto;
     margin: 0;
   }
@@ -607,7 +609,7 @@ table td {
   }
 
   #toc {
-    display:none;
+    display: none;
   }
 
   .list-posts {
@@ -650,7 +652,8 @@ table td {
   text-align: right;
 }
 
-.prev-post, .next-post {
+.prev-post,
+.next-post {
   max-width: 33%;
 }
 
@@ -672,16 +675,20 @@ table td {
   height: 25px;
 }
 
-.arrow-logo path{
-  fill: var(--light-secondary-color)
+.arrow-logo path {
+  fill: var(--light-secondary-color);
 }
 
 .arrow-logo:hover {
+<<<<<<< Updated upstream
   fill:  var(--accent-color);
+=======
+  fill: var(--accent-color);
+>>>>>>> Stashed changes
 }
 
 @media screen and (max-width: 600px) {
   #btt-button {
-      visibility: hidden;
+    visibility: hidden;
   }
 }
